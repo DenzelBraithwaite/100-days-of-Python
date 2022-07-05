@@ -7,6 +7,6 @@ Therefore, I won't be pushing those projects(the beginner level) but I will of c
 This explains why you might notice a gap between days, it's simply because the project at the time was using a third party website in the form of a game as opposed to a small project that's build from scratch. Those to me, are not really worth pushing, since it would only be valid on those websites, and not in a real Python project.
 My core focus at the moment is to continue learning JavaScript and React, so Python is more of a fun daily challenge than a serious professional goal.
 
-If you're new to coding and would like to learn Python, I'd highly recommend buying Angela's course when it goes on sale (instead of 120$ CAD, it could be 20$)
+If you're new to coding and would like to learn Python, I'd highly recommend buying Angela's course when it goes on sale (instead of $120 CAD, it could be \$20)
 
 Thanks for stopping by, stay awesome :)
