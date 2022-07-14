@@ -6,6 +6,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 encrypting = True
 
 def caesar(text, shift, directon):
+  shift = shift % 26 # But what if they're decoding and it's under 0
   text_split = list(text)
   final_text = ""
   if direction == "decode".lower():
@@ -13,12 +14,6 @@ def caesar(text, shift, directon):
   for character in text_split:
     if character in alphabet:
       index = alphabet.index(character)
-      new_index = index + shift
-      if new_index < 0:
-        shift = shift % -26
-      elif new_index > 26:
-        shift = shift % 26
-
       new_index = index + shift
       new_letter = alphabet[new_index]
       final_text += new_letter
